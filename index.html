@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Académicos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Instituto Futuro</h1>
+        <p>Aprende hoy, crece mañana</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#registro">Registro</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Conoce nuestros servicios académicos y aprende nuevas habilidades.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros servicios</h2>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Desarrollo Web</h3>
+                <p>Aprende a crear páginas web.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Computación</h3>
+                <p>Aprende a usar herramientas digitales.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Programación</h3>
+                <p>Aprende las bases de la programación.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="registro">
+        <h2>Formulario de registro</h2>
+
+        <form id="formulario">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" required>
+
+            <label for="servicio">Servicio de interés:</label>
+            <select id="servicio" required>
+                <option value="">Selecciona un servicio</option>
+                <option>Desarrollo Web</option>
+                <option>Computación</option>
+                <option>Programación</option>
+            </select>
+
+            <button type="submit">Registrarme</button>
+        </form>
+
+        <p id="mensaje"></p>
+    </section>
+
+    <footer>
+        <p>Proyecto académico - Frontend Developer Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

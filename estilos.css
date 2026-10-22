@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f6fc;
+    color: #26364a;
+}
+
+header {
+    background-color: #174a8b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #12345a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #174a8b;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 15px;
+}
+
+.tarjeta {
+    background-color: #e2edfc;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #174a8b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2868b2;
+}
+
+footer {
+    background-color: #12345a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
