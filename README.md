@@ -33,4 +33,4 @@ Es un método de sustitución en el que cada letra se desplaza un número determ
 3. Abre `index.html` en un navegador web.
 
 ## Nota
-El cifrado César es útil para aprender conceptos básicos de criptografía, pero no debe utilizarse para proteger información confidencial porque es fácil de descifrar.
+El cifrado Joel es útil para aprender conceptos básicos de criptografía, pero no debe utilizarse para proteger información confidencial porque es fácil de descifrar.
