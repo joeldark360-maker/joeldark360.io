@@ -1,9 +1,9 @@
-# Cifrador César
+# Cifrador Joel
 
 **Autor: Joel**
 
 ## Descripción
-Este proyecto consiste en una página web para cifrar texto usando el método del cifrado César. El usuario escribe un texto y puede ajustar el desplazamiento con un control deslizante para ver el resultado cifrado.
+Este proyecto consiste en una página web para cifrar texto usando el método del cifrado Joel. El usuario escribe un texto y puede ajustar el desplazamiento con un control deslizante para ver el resultado cifrado.
 
 ## Objetivo
 Crear una herramienta sencilla e interactiva para practicar conceptos de HTML, CSS y JavaScript mediante un ejemplo de cifrado clásico.
@@ -24,7 +24,7 @@ Crear una herramienta sencilla e interactiva para practicar conceptos de HTML, C
 3. Mueve el control deslizante para elegir el desplazamiento.
 4. Observa el texto cifrado que aparece en pantalla.
 
-## ¿Qué es el cifrado César?
+## ¿Qué es el cifrado Joel?
 Es un método de sustitución en el que cada letra se desplaza un número determinado de posiciones en el alfabeto. Por ejemplo, con un desplazamiento de 3, la letra `A` se transforma en `D`.
 
 ## Cómo ejecutar el proyecto
